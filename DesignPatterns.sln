@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{519B2E5B-0541-4C15-AD3F-60542DBFBCFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{7FD703D2-46CA-4FE5-9B58-312E5561F679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DDEFA4A-C158-4657-B75B-CF2BE72E9E1F} = {519B2E5B-0541-4C15-AD3F-60542DBFBCFA}
+		{6E860E9A-0B8E-47C5-AA7F-AB2ACA4C6D36} = {7FD703D2-46CA-4FE5-9B58-312E5561F679}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69AAC55E-A843-41ED-88D7-878EDD95CE9C}
+	EndGlobalSection
+EndGlobal
