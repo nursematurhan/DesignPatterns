@@ -1,0 +1,2 @@
+-CQRS 
+-Chain of Responsibility
